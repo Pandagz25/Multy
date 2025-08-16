@@ -21,5 +21,9 @@ Fitur yang tersedia antara lain:
 Clone repo atau download file Python:
 
 ```bash
-git clone https://github.com/USERNAME/REPO.git
-cd REPO
+pkg install python
+pkg install git
+pip install requests aiohttp colorama
+git clone https://github.com/Pandagz25/Multy.git
+cd Multy
+python M.py
