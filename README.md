@@ -9,9 +9,7 @@ Berisi berbagai fitur seperti scanner, IP lookup, stalker akun sosial media, WiF
 ---
 
 ⚙️ Cara Install & Menjalankan
-
-1. Install Termux dependencies
-
+``bash
 pkg update -y && pkg upgrade -y  
 pkg install python git clang libffi libcrypt libxml2 libxslt curl wget nmap openssl-tool cloudflared termux-api -y  
 pip install --upgrade pip wheel setuptools  
@@ -21,4 +19,4 @@ pkg install cloudflared
 pkg install git -y  
 git clone https://github.com/Pandagz25/Multy.git  
 cd Multy
-
+``
