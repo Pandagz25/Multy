@@ -9,7 +9,7 @@ Berisi berbagai fitur seperti scanner, IP lookup, stalker akun sosial media, WiF
 ---
 
 ⚙️ Cara Install & Menjalankan
-``bash
+```bash
 pkg update -y && pkg upgrade -y  
 pkg install python git clang libffi libcrypt libxml2 libxslt curl wget nmap openssl-tool cloudflared termux-api -y  
 pip install --upgrade pip wheel setuptools  
