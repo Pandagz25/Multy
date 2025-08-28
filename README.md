@@ -1,29 +1,24 @@
-# XDev Multi-Tool
+Multi.py – Multi Tools Termux
 
-Tool multifungsi untuk kebutuhan **security testing** (hanya untuk edukasi dan aset milik sendiri).  
-Fitur yang tersedia antara lain:
+📌 Deskripsi
 
-- 🔍 **Scan** (Port Scan + Path/Directory Scan)
-- 🔍 **Scanv2** (Scan + simpan hasil detail)
-- ⚡ **Load Test** (uji ketahanan server di localhost/jaringan privat)
-- ⚠️ **DDoS (educational only)** — jangan digunakan untuk target ilegal
-- 🌍 **IP Info** (cek detail IP dengan API)
-- 📡 **IP Attack** (ping test + logging)
-- 📖 **About**
+Multi.py adalah script Python serbaguna yang bisa dijalankan di Termux Android.
+Berisi berbagai fitur seperti scanner, IP lookup, stalker akun sosial media, WiFi info, leak checker, cloudflared tunnel, hingga bot Telegram.
 
-> ⚠️ **Disclaimer**: Tool ini dibuat untuk tujuan edukasi dan pengujian keamanan pada sistem yang **Anda miliki izin**.  
-> Penyalahgunaan tool ini dapat melanggar hukum.
 
 ---
 
-## 📦 Instalasi
+⚙️ Cara Install & Menjalankan
 
-Clone repo atau download file Python:
+1. Install Termux dependencies
 
-```bash
-pkg install python
-pkg install git
-pip install requests aiohttp colorama
-git clone https://github.com/Pandagz25/Multy.git
+pkg update -y && pkg upgrade -y  
+pkg install python git clang libffi libcrypt libxml2 libxslt curl wget nmap openssl-tool cloudflared termux-api -y  
+pip install --upgrade pip wheel setuptools  
+pip install aiohttp instaloader phonenumbers colorama requests playsound psutil pyTelegramBotAPI flask pygame  
+pip install aiohttp instaloader phonenumbers colorama requests playsound psutil pyTelegramBotAPI flask pygame  
+pkg install cloudflared  
+pkg install git -y  
+git clone https://github.com/Pandagz25/Multy.git  
 cd Multy
-python M.py
+
