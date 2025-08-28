@@ -19,4 +19,4 @@ pkg install cloudflared
 pkg install git -y  
 git clone https://github.com/Pandagz25/Multy.git  
 cd Multy
-``
+`
