@@ -1,0 +1,7 @@
+aiohttp
+instaloader
+phonenumbers
+colorama
+requests
+flask
+pyTelegramBotAPI
