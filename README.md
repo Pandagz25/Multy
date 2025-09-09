@@ -5,18 +5,23 @@ Multi.py – Multi Tools Termux
 Multi.py adalah script Python serbaguna yang bisa dijalankan di Termux Android.
 Berisi berbagai fitur seperti scanner, IP lookup, stalker akun sosial media, WiFi info, leak checker, cloudflared tunnel, hingga bot Telegram.
 
+𝐣𝐢𝐤𝐚 𝐢𝐧𝐠𝐢𝐧 𝐦𝐞𝐧𝐠𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐟𝐢𝐭𝐮𝐫 𝐝𝐨𝐱𝐢𝐧𝐠 𝐡𝐚𝐫𝐮𝐬 𝐤𝐞𝐭𝐢𝐤 𝐢𝐧𝐢 𝐭𝐞𝐫𝐥𝐞𝐛𝐢𝐡 𝐝𝐚𝐡𝐮𝐥𝐮 𝐚𝐠𝐚𝐫 𝐭𝐢𝐝𝐚𝐤 𝐞𝐫𝐫𝐨𝐫
+```bash
+termux-setup-storage
+```
 
+jika pengguna Linux atau lain nya gw gtw harus ketik apa
 ---
 
 ⚙️ Cara Install & Menjalankan
 ```bash
-pkg update -y && pkg upgrade -y  
-pkg install python git clang libffi libcrypt libxml2 libxslt curl wget nmap openssl-tool cloudflared termux-api -y  
-pip install --upgrade pip wheel setuptools  
-pip install aiohttp instaloader phonenumbers colorama requests playsound psutil pyTelegramBotAPI flask pygame
+pkg update -y && pkg upgrade -y
+pkg install git -y
+pkg install python -y
 git clone https://github.com/Pandagz25/Multy.git  
 cd Multy
-python enco.py
+pip install -r requirements.txt
+python Multy.py
 ```
 
 ---
@@ -24,4 +29,5 @@ python enco.py
 ```bash
 git clone https://github.com/Pandagz25/Multy.git  
 cd Multy
-python enco.py
+python Multy.py
+```
