@@ -5,3 +5,6 @@ colorama
 requests
 flask
 pyTelegramBotAPI
+bs4
+python-whois
+pytz
